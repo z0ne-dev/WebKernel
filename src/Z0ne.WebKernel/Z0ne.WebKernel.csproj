@@ -11,7 +11,6 @@
         <PackageReference Include="Fluent.Net" Version="1.0.60" />
         <PackageReference Include="Mediator.Net" Version="4.7.0" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-        <PackageReference Include="System.IO.Abstractions" Version="19.0.1" />
     </ItemGroup>
 
 </Project>
