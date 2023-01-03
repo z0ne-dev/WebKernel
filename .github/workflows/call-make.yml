@@ -57,6 +57,7 @@ jobs:
 
             - name: 🔝 Move coverage file
               if: ${{ inputs.create-coverage }}
+              continue-on-error: true
               run: >
                   mv -v TestResults/*/* TestResults
 
