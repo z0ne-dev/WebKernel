@@ -55,7 +55,7 @@ jobs:
         with:
             create-artifact: ${{ needs.release-please.outputs.created == 'true' }}
             artifact-name: nupkg
-            create-coverage: true
+            create-coverage: false #disable because no tests here yet
 
     cd:
         name: 🚀 Upload released application
