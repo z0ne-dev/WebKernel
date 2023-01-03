@@ -1,0 +1,72 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>11</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net7.0</TargetFramework>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <Company>Z0ne</Company>
+        <Authors>Kura</Authors>
+        <Product>Z0ne.WebKernel</Product>
+        <Description>Common Z0ne web project</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Copyright>Copyright © 2023 z0ne</Copyright>
+        <PackageTags>web, aspnet</PackageTags>
+        <PackageIcon>icon.png</PackageIcon>
+
+        <!-- x-release-please-start-version -->
+        <Version>0.0.1</Version>
+        <!-- x-release-please-end -->
+
+        <Title>Z0ne.WebKernel</Title>
+        <PackageProjectUrl>https://github.com/z0ne-dev/WebKernel</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/z0ne-dev/WebKernel</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
+        <NeutralLanguage>en</NeutralLanguage>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsAsErrors/>
+        <NoWarn/>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)/README.md" Pack="true" PackagePath="\"/>
+        <None Include="$(MSBuildThisFileDirectory)/icon.png" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AsyncFixer" Version="1.6.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="AsyncSuffixAnalyzer" Version="1.0.6285.32977">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="IDisposableAnalyzers" Version="4.0.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Roslyn.System.IO.Abstractions.Analyzers" Version="12.2.19">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Meziantou.Analyzer" Version="1.0.748">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="ReflectionAnalyzers" Version="0.3.1">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>

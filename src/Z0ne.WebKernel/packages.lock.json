@@ -1,0 +1,108 @@
+{
+    "version": 1,
+    "dependencies": {
+        "net7.0": {
+            "AsyncFixer": {
+                "type": "Direct",
+                "requested": "[1.6.0, )",
+                "resolved": "1.6.0",
+                "contentHash": "/Xfs9H3UMfEv64cwT+C/JrTRp4w08BmPuFbj0ageadCHpx6rxYJxAU2C6sEqRFG22xmGk5cX9ewzoiiehWVHOw=="
+            },
+            "AsyncSuffixAnalyzer": {
+                "type": "Direct",
+                "requested": "[1.0.6285.32977, )",
+                "resolved": "1.0.6285.32977",
+                "contentHash": "S2ULBN11lkipQ2E0KJlY91ysYDeSUqg5WMgDuNRNO0HwCWhrOdwfZ0K4wgStqpT4wJZI4D2YobDj/La4XA8Tvw=="
+            },
+            "Fluent.Net": {
+                "type": "Direct",
+                "requested": "[1.0.60, )",
+                "resolved": "1.0.60",
+                "contentHash": "rDX6WFlDEBTuAp//gyd7KqazeoFA8Fgs2D38KlQjwHLrsxSK/rhNwtjHzhJydPu88sufTXIQFWupDzBOlpq2zA=="
+            },
+            "IDisposableAnalyzers": {
+                "type": "Direct",
+                "requested": "[4.0.2, )",
+                "resolved": "4.0.2",
+                "contentHash": "bmfujLOOEKcTULCu8XerA4V5p0WSNFfN4MXMUVMfyvhv0eDcqkdSKgf32nkSOeHQgoNzdDrSG2tTfxZchmRApQ=="
+            },
+            "Mediator.Net": {
+                "type": "Direct",
+                "requested": "[4.7.0, )",
+                "resolved": "4.7.0",
+                "contentHash": "we98Tm1BL4bduoq2lvYcWa4JXVLK+XMFMlrPgjp7Fj04Y9NHC27oOrFchyz464WAlX4M/XfPzywiUIakHxt2Lg==",
+                "dependencies": {
+                    "System.Interactive.Async": "6.0.1"
+                }
+            },
+            "Meziantou.Analyzer": {
+                "type": "Direct",
+                "requested": "[1.0.748, )",
+                "resolved": "1.0.748",
+                "contentHash": "VW0xBOvFdr4CIfBfBhK9liZrbGPi2n/9QJBLf25y8+FNBI/LlyOkVChNuVLOFKetg3JspEZHY01iDL+sr1e9jw=="
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+                "type": "Direct",
+                "requested": "[7.0.0, )",
+                "resolved": "7.0.0",
+                "contentHash": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw=="
+            },
+            "ReflectionAnalyzers": {
+                "type": "Direct",
+                "requested": "[0.3.1, )",
+                "resolved": "0.3.1",
+                "contentHash": "Q7N3nziye+vGsDPcrKrPFjlaFhrM+1adtJcpjFeq4ufBB+uKc4kRezSK03382xpE8iNQbiRHUl+z31NW0W18FQ=="
+            },
+            "Roslyn.System.IO.Abstractions.Analyzers": {
+                "type": "Direct",
+                "requested": "[12.2.19, )",
+                "resolved": "12.2.19",
+                "contentHash": "1/zB6aGagyAbwYR5VNvm10zMCk32C3UTGw5Wy9UJs0p1PNMNyk9/0VAjBI/yjrGHEY4NUto7Tl/I883CvDe+CQ=="
+            },
+            "System.IO.Abstractions": {
+                "type": "Direct",
+                "requested": "[19.0.1, )",
+                "resolved": "19.0.1",
+                "contentHash": "UVM412UWKjs07esf5bnfAxJ8Bj/0srrFzNXit0mbY6kFoC8M3gHsFF28KLfI4rSnfRj0wbQ/LCvkGZ/hHiTA1Q==",
+                "dependencies": {
+                    "TestableIO.System.IO.Abstractions": "19.0.1",
+                    "TestableIO.System.IO.Abstractions.Wrappers": "19.0.1"
+                }
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+                "type": "Transitive",
+                "resolved": "6.0.0",
+                "contentHash": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg=="
+            },
+            "System.Interactive.Async": {
+                "type": "Transitive",
+                "resolved": "6.0.1",
+                "contentHash": "f8H1O4ZWDQo344y5NQU76G4SIjWMuKDVXL9OM1dg6K5YZnLkc8iCdQDybBvMcC6ufk61jzXGVAX6UCDu0qDSjA==",
+                "dependencies": {
+                    "System.Linq.Async": "6.0.1"
+                }
+            },
+            "System.Linq.Async": {
+                "type": "Transitive",
+                "resolved": "6.0.1",
+                "contentHash": "0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+                "dependencies": {
+                    "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+                }
+            },
+            "TestableIO.System.IO.Abstractions": {
+                "type": "Transitive",
+                "resolved": "19.0.1",
+                "contentHash": "PGlynyB/3wzKOLY/kOBC6XvaOSyMJ1sG0yXp7toWjGUXmCm4n1ySIlpZLCtVezKtqNVQIyTzGX0ASUZIuquLrg=="
+            },
+            "TestableIO.System.IO.Abstractions.Wrappers": {
+                "type": "Transitive",
+                "resolved": "19.0.1",
+                "contentHash": "ayFxzptLadWGxDqCqNL37maXFGNXlB5H4bD07Pl+sgDWMxVgFiu8EZ64dMAWOoLBuApxkrST1UN3dwNDrPnwmA==",
+                "dependencies": {
+                    "TestableIO.System.IO.Abstractions": "19.0.1"
+                }
+            }
+        }
+    }
+}
